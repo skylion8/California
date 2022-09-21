@@ -10,10 +10,17 @@
   margin: auto;
 }
 
+.flex_start {
+  align-items: flex-start;
+}
+
+.items_center {
+  align-items: center;
+}
+
 .d_flex {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .body {
@@ -143,10 +150,35 @@ header nav ul li a {
   margin-bottom: 34px;
 }
 
+.shop h2 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+  margin-top: 75px;
+}
+.shop p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 55px;
+  max-width: 628px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .laptops {
   background: #FFFFFF;
   border-radius: 32px;
-  max-width: 639px;
+  width: 639px;
   margin-bottom: 72px;
 }
 .laptops p {
@@ -157,7 +189,7 @@ header nav ul li a {
   line-height: 19px;
   text-align: right;
   color: #000000;
-  margin-bottom: 19px;
+  margin-right: 42px;
 }
 .laptops h3 {
   font-family: "Readex Pro", sans-serif;
@@ -167,12 +199,13 @@ header nav ul li a {
   line-height: 38px;
   text-align: right;
   color: #000000;
+  margin-right: 42px;
 }
 
 .wath {
   background: #FFFFFF;
   border-radius: 32px;
-  max-width: 639px;
+  width: 639px;
 }
 .wath p {
   font-family: "Inter", sans-serif;
@@ -182,7 +215,8 @@ header nav ul li a {
   line-height: 19px;
   text-align: right;
   color: #000000;
-  margin-bottom: 19px;
+  margin-right: 42px;
+  padding-top: 87px;
 }
 .wath h3 {
   font-family: "Readex Pro", sans-serif;
@@ -192,12 +226,14 @@ header nav ul li a {
   line-height: 38px;
   text-align: right;
   color: #000000;
+  margin-right: 42px;
 }
 
 .phones {
   background: #FFFFFF;
   border-radius: 32px;
   max-width: 312px;
+  margin-left: 16px;
 }
 .phones p {
   font-family: "Inter", sans-serif;
@@ -205,9 +241,8 @@ header nav ul li a {
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
-  text-align: right;
+  text-align: center;
   color: #000000;
-  margin-bottom: 19px;
 }
 .phones h3 {
   font-family: "Readex Pro", sans-serif;
@@ -215,24 +250,29 @@ header nav ul li a {
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
-  text-align: right;
+  text-align: center;
   color: #000000;
+  margin-bottom: 144px;
+}
+.phones img {
+  padding-top: 144px;
 }
 
 .tablet {
   background: #FFFFFF;
   border-radius: 32px;
   max-width: 312px;
+  margin-left: 16px;
 }
 .tablet p {
+  padding-top: 114px;
+  text-align: center;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
-  text-align: right;
   color: #000000;
-  margin-bottom: 19px;
 }
 .tablet h3 {
   font-family: "Readex Pro", sans-serif;
@@ -240,8 +280,33 @@ header nav ul li a {
   font-weight: 400;
   font-size: 32px;
   line-height: 38px;
-  text-align: right;
+  text-align: center;
   color: #000000;
+}
+.tablet img {
+  margin-bottom: 115px;
+}
+
+.most_selled h2 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+  margin-top: 78px;
+}
+.most_selled p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 31px;
 }
 
 /*# sourceMappingURL=style.css.map */
