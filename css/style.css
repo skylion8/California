@@ -455,12 +455,12 @@ header nav ul li a {
   text-align: center;
 }
 
-.wathes {
+.latest {
   background: #F8F9FA;
   border-radius: 16px;
   width: 413px;
 }
-.wathes p {
+.latest p {
   font-family: "Readex Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -470,7 +470,7 @@ header nav ul li a {
   color: #000000;
   padding-top: 41px;
 }
-.wathes h5 {
+.latest h5 {
   font-family: "Readex Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -478,7 +478,367 @@ header nav ul li a {
   line-height: 35px;
   text-align: center;
   color: #000000;
+  margin-bottom: 20px;
+}
+.latest a {
+  border: 1px solid #000000;
+  border-radius: 200px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 14px 53px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+.latest h6 {
+  text-align: center;
+}
+.latest img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.best_sell {
+  background: #F8F9FA;
+  border-radius: 16px;
+  width: 413px;
+}
+.best_sell p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  padding-top: 41px;
+}
+.best_sell h5 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.best_sell a {
+  border: 1px solid #000000;
+  border-radius: 200px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 14px 53px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+.best_sell h6 {
+  text-align: center;
+}
+.best_sell img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bulb_pack {
+  background: #F8F9FA;
+  border-radius: 16px;
+  width: 413px;
+}
+.bulb_pack p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  padding-top: 41px;
+}
+.bulb_pack h5 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.bulb_pack a {
+  border: 1px solid #000000;
+  border-radius: 200px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 14px 53px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 30px;
+}
+.bulb_pack h6 {
+  text-align: center;
+}
+.bulb_pack img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ideas_text {
+  margin-top: 75px;
+}
+.ideas_text h2 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 9px;
+  color: #000000;
+}
+.ideas_text p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  margin-bottom: 56px;
+  color: #000000;
+}
+
+.book_text {
+  max-width: 600px;
+}
+.book_text p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 28px;
+  color: #000000;
+  margin-top: 14px;
+}
+
+.see_all a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000000;
+  list-style: none;
+  text-decoration: none;
+}
+.see_all h5 {
+  text-align: center;
+  margin-top: 73px;
+  margin-bottom: 24px;
+}
+
+.search_keyword input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  padding-left: 26px;
+  color: #000000;
+  background: #F8F9FA;
+  border: 1px solid #C5C5C5;
+  border-radius: 100px;
+  width: 650px;
+  box-sizing: border-box;
+  padding-top: 22px;
+  padding-bottom: 24px;
   margin-bottom: 30px;
+}
+
+.search h2 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 24px;
+}
+
+.a_href {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-bottom: 7px;
+  max-width: 600px;
+}
+.a_href a {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-decoration: none;
+  list-style: none;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  padding: 12px 22px;
+  margin-right: 7px;
+}
+
+.never_miss {
+  max-width: 935px;
+  background: #DCE5E2;
+  border-radius: 16px;
+  margin: 47px auto;
+}
+.never_miss h2 {
+  padding-top: 47px;
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.never_miss p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 14px;
+}
+
+.email_form {
+  display: flex;
+  justify-content: center;
+}
+.email_form input {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  padding-left: 26px;
+  color: #000000;
+  background: #DCE5E2;
+  border: 1px solid #000000;
+  border-radius: 54px 0 0 54px;
+  width: 285px;
+  box-sizing: border-box;
+  padding-top: 22px;
+  padding-bottom: 24px;
+  margin-bottom: 30px;
+}
+.email_form button {
+  background: #000000;
+  border-radius: 0 200px 200px 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 22px;
+  padding-bottom: 21px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background: #F8F9FA;
+  padding-top: 55px;
+  padding-bottom: 16px;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1295px;
+}
+.footer_container span {
+  background: #DCE5E2;
+  width: 1350px;
+  height: 1px;
+}
+
+.footer_logo p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  max-width: 304px;
+  text-align: left;
+  margin-top: 18px;
+}
+
+.links {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.footer ul {
+  list-style: none;
+}
+.footer ul li {
+  margin-bottom: 14px;
+}
+.footer ul li a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  text-decoration: none;
+}
+.footer ul li:first-of-type {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 19px;
 }
 
 /*# sourceMappingURL=style.css.map */
