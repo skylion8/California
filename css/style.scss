@@ -662,8 +662,7 @@ h5{
 
 
 .search_keyword{
-
-
+  position: relative;
   input{
     display: block;
     margin-right: auto;
@@ -674,7 +673,7 @@ h5{
     font-size: 14px;
     line-height: 17px;
     text-align: left;
-    padding-left: 26px;
+    padding-left: 46px;
     color: #000000;
     background: #F8F9FA;
     border: 1px solid #C5C5C5;
@@ -684,6 +683,12 @@ h5{
     padding-top: 22px;
     padding-bottom: 24px;
     margin-bottom: 30px;
+  }
+  img{
+    position: absolute;
+    top: 50%;
+    left: 342px;
+    transform: translateY(-50%);
   }
 }
 .search{
@@ -836,7 +841,7 @@ p{
     color: #000000;
     text-decoration: none;
   }
-  li:first-of-type {
+  li:first-of-type a{
     font-family: 'Readex Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -844,8 +849,6 @@ p{
     line-height: 28px;
     color: #000000;
     margin-bottom: 19px;
-
-
   }
 }
 

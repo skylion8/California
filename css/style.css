@@ -657,6 +657,9 @@ header nav ul li a {
   margin-bottom: 24px;
 }
 
+.search_keyword {
+  position: relative;
+}
 .search_keyword input {
   display: block;
   margin-right: auto;
@@ -667,7 +670,7 @@ header nav ul li a {
   font-size: 14px;
   line-height: 17px;
   text-align: left;
-  padding-left: 26px;
+  padding-left: 46px;
   color: #000000;
   background: #F8F9FA;
   border: 1px solid #C5C5C5;
@@ -677,6 +680,12 @@ header nav ul li a {
   padding-top: 22px;
   padding-bottom: 24px;
   margin-bottom: 30px;
+}
+.search_keyword img {
+  position: absolute;
+  top: 50%;
+  left: 342px;
+  transform: translateY(-50%);
 }
 
 .search h2 {
@@ -831,7 +840,7 @@ header nav ul li a {
   color: #000000;
   text-decoration: none;
 }
-.footer ul li:first-of-type {
+.footer ul li:first-of-type a {
   font-family: "Readex Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
