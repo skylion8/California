@@ -79,14 +79,14 @@ header {
   font-size: 16px;
   line-height: 19px;
   color: #000000;
-  img{
-    display: block;
-    width: 100%;
-
-  }
-
+   }
+    img{
+      width: 647px;
     }
   }
+}
+.owl-carousel .owl-item img{
+  max-width: 647px;
 }
 .btn_explore{
   border: 1px solid #000000;
@@ -104,7 +104,7 @@ header {
   margin-top: 30px;
 }
 .text_banner{
-  width: 647px;
+  width: 553px;
   padding-top: 145px;
   padding-bottom: 127px;
 }
@@ -130,12 +130,70 @@ header {
   font-weight: 900;
   color: black;
 }
-.phone span{
+
+.owl-dots{
   background: #000000;
   border-radius: 0;
   width: 194px;
   height: 2px;
   margin-right: 34px;
-  display: inline-block;
   margin-bottom: 34px;
+  position: absolute;
+  left: 250px;
+  bottom: 1px;
+}
+.owl-item .active{
+  width: 553px;
+}
+
+.laptops{
+  background: #FFFFFF;
+  border-radius: 32px;
+  max-width: 639px;
+  margin-bottom: 72px;
+  p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 19px;
+
+  }
+  h3{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    color: #000000;
+  }
+}
+.wath{
+  background: #FFFFFF;
+  border-radius: 32px;
+  max-width: 639px;
+  p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 19px;
+
+  }
+  h3{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    color: #000000;
+  }
 }
