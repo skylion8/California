@@ -61,7 +61,7 @@ header {
   background: #DCE5E2;
   border-radius: 32px;
   padding-left: 56px;
-  max-width:1200px ;
+  max-width: 1294px;
   margin: auto;
 
   h1{
@@ -80,14 +80,10 @@ header {
   line-height: 19px;
   color: #000000;
    }
-    img{
-      width: 647px;
-    }
+
   }
 }
-.owl-carousel .owl-item img{
-  max-width: 647px;
-}
+
 .btn_explore{
   border: 1px solid #000000;
   border-radius: 200px;
@@ -104,7 +100,7 @@ header {
   margin-top: 30px;
 }
 .text_banner{
-  width: 553px;
+
   padding-top: 145px;
   padding-bottom: 127px;
 }
@@ -112,6 +108,7 @@ header {
   position: absolute;
   left: -39px;
   top: 50%;
+  background: none;
 }
 .owl-nav .owl-prev:before{
   content: "\f053";
@@ -123,6 +120,7 @@ header {
   position: absolute;
   right: 19px;
   top: 50%;
+  background: none;
 }
 .owl-nav .owl-next:before{
   content: "\f054";
@@ -132,18 +130,17 @@ header {
 }
 
 .owl-dots{
+  position: absolute;
+  left: 250px;
+  bottom: 1px;
+}
+.owl-dot{
   background: #000000;
   border-radius: 0;
   width: 194px;
   height: 2px;
   margin-right: 34px;
   margin-bottom: 34px;
-  position: absolute;
-  left: 250px;
-  bottom: 1px;
-}
-.owl-item .active{
-  width: 553px;
 }
 
 .laptops{
@@ -176,6 +173,56 @@ header {
   background: #FFFFFF;
   border-radius: 32px;
   max-width: 639px;
+  p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 19px;
+
+  }
+  h3{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    color: #000000;
+  }
+}
+.phones{
+  background: #FFFFFF;
+  border-radius: 32px;
+  max-width: 312px;
+  p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 19px;
+
+  }
+  h3{
+    font-family: 'Readex Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    color: #000000;
+  }
+}
+.tablet{
+  background: #FFFFFF;
+  border-radius: 32px;
+  max-width: 312px;
   p{
     font-family: 'Inter', sans-serif;
     font-style: normal;
