@@ -58,6 +58,8 @@ header nav ul li a {
   background: #DCE5E2;
   border-radius: 32px;
   padding-left: 56px;
+  max-width: 1200px;
+  margin: auto;
 }
 .phone h1 {
   font-family: "Readex Pro", sans-serif;
@@ -75,6 +77,10 @@ header nav ul li a {
   font-size: 16px;
   line-height: 19px;
   color: #000000;
+}
+.phone h1 p img {
+  display: block;
+  width: 100%;
 }
 
 .btn_explore {
@@ -101,7 +107,7 @@ header nav ul li a {
 
 .owl-nav .owl-prev {
   position: absolute;
-  left: 19px;
+  left: -39px;
   top: 50%;
 }
 
@@ -123,6 +129,15 @@ header nav ul li a {
   font-family: "Font Awesome 6 Free", sans-serif;
   font-weight: 900;
   color: black;
+}
+
+.phone span {
+  background: #000000;
+  border-radius: 0;
+  width: 194px;
+  height: 2px;
+  margin-right: 34px;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */
