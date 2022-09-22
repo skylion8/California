@@ -6,16 +6,7 @@ $(document).ready(function(){
         autoplay:false,
         autoplayTimeout: 3000,
         navText: [ '', ' ' ],
-
-        responsive:{
-            0:{
-                items:2
-            },
-
-            1000:{
-                items:2
-            }
-        }
+        items:1,
     });
 });
 function toggleMenu() {
